@@ -44,14 +44,14 @@ body{font-family: 'Open Sans'; color: #4a4a4a; font-weight: 300; font-size: 14px
 }
 .downArrow a:hover{text-decoration: none; background: #ededed; border-radius: 35px}
 .sectionTitle{font-size: 36px; margin-bottom: 40px; font-weight: 100; margin-top: 100px;}
-.projTile{background: #f8f8f8; border: 1px solid #ededed; height: 180px; position: relative; cursor: pointer;}
+.projTile{background: #f8f8f8; border: 1px solid #ededed; height: 150px; position: relative; cursor: pointer;}
 a.projTileCont{display: block; color: #000}
 a.projTileCont:hover{text-decoration: none;}
 a.projTileCont:hover .projTile{box-shadow: 0 0 10px #ccc; border:1px solid #ddd; text-decoration: none;}
 
-.projTitle{font-size: 24px; font-weight: 200; padding-left: 15px;}
+.projTitle{font-size: 20px; font-weight: 200; padding-left: 15px;}
 .projCompany{font-size: 12px; margin-top: -6px;  padding-left: 15px;}
-.projSkills{background: #ededed; padding: 14px; position: absolute; bottom: 0; width: 100%; border:1px solid #f8f8f8;}
+.projSkills{background: #ededed; padding: 14px; position: absolute; bottom: 0; width: 100%; border:1px solid #f8f8f8; font-family: 'chetan_skill_icons'; font-size: 18px; letter-spacing: 5px;}
 .myWorks .row {margin-bottom: 40px;}
 
 
@@ -174,9 +174,12 @@ footer a:hover{color: #2D9695; text-decoration: none;}
 .prevNext{position: fixed; top: 45%; width: 100%}
 .prev{position: absolute; left:0}
 .next a, .prev a{width: 70px;padding: 10px;font-size: 12px;background: #ededed;border-radius: 0px 10px 10px 0px;color: #666; display: block; text-decoration: none;}
+.next a.disabled, .prev a.disabled{cursor: default ; color: #c1c1c1}
+
 .next a{border-radius: 10px 0px 0px 10px; text-align: right;}
 .next a:hover, .prev a:hover{background: #4a4a4a; color: #ffffff;}
 .next{position: absolute; right:0}
+.next a.disabled:hover, .prev a.disabled:hover{cursor: default !important; color: #c1c1c1 !important; background: #ededed}
 
 .works .col-xs-4{padding: 10px !important;}
 .workItem{}

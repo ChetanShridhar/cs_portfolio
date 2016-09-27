@@ -27,33 +27,105 @@
       <div class="container">
         <!-- Brand and toggle get grouped for better mobile display -->
         <div class="navbar-header ">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+              <span class="sr-only">Toggle navigation</span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+          </button>
 
-
-          <a class="navbar-brand opacity_90" href="../index.html#2"><p>Chetan Shridhar<p></a>
+          <a class="navbar-brand opacity_90" href="../index.html"><p>Chetan Shridhar<p></a>
         </div>
 
         <!-- Collect the nav links, forms, and other content for toggling -->
-
-          <ul class="nav navbar-nav navbar-right">
-            <!--<li class="active"><a href="#">Me <span class="sr-only">(current)</span></a></li>-->
-            <li><a href="#">Me</a></li>
-            <li><a href="#">Resume</a></li>
-            <li><a href="#">Contact Me</a></li>
-          </ul>
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+            <ul class="nav navbar-nav navbar-right navbarStyle">
+              <!--<li class="active"><a href="#">Me <span class="sr-only">(current)</span></a></li>-->
+              <li><a class="homeLink" href="#home">Me</a></li>
+              <li><a class="worksLink" href="../index.html#works">Works</a></li>
+              <li><a class="skillLink" href="../index.html#skills">Skills</a></li>
+              <li><a  href="#">Resume</a></li>
+              <li><a  href="#">Contact Me</a></li>
+            </ul>
         </div><!-- /.navbar-collapse -->
 
     </nav>
     <div class="prevNext">
       <div class="prev">
-        <a href="#">Previous Project</a>
+        <a class="" href="../works/visiApp.html">Previous Project</a>
       </div>
       <div class="next">
-        <a href="#">Next Project</a>
+        <a href="../works/pivotAnalysis.html">Next Project</a>
       </div>
     </div>
     <div class="container">
+      <div class="modal fade" id="myModal" tabindex="-1" role="dialog">
+        <div class="modal-dialog modal-lg" role="document">
+          <div class="modal-content">
+            <div class="modal-body">
+              <div class="worksSnippet">
+                <h4 class="smallSectionTitle">My Works</h4>
+                <div class="row">
+                  <div class="col-md-3">
+                    <a class="smallProjTile" href="../works/broadcastMonitor.html">
+                      <h4 class="smallprojTitle" >Broadcast Monitor</h4>
+                    </a>
+                  </div>
+                  <div class="col-md-3">
+                    <a class="smallProjTile" href="../works/visiApp.html">
+                      <h4 class="smallprojTitle" >ViSi iPad App</h4>
+                    </a>
+                  </div>
+                  <div class="col-md-3">
+                    <a class="smallProjTile" href="../works/confercontrol.html">
+                      <h4 class="smallprojTitle" >Confer Control</h4>
+                    </a>
+                  </div>
+                  <div class="col-md-3">
+                    <a class="smallProjTile" href="../works/pivotAnalysis.html">
+                      <h4 class="smallprojTitle" >Pivot Analysis Tool</h4>
+                    </a>
+                  </div>
+
+
+                </div>
+                <div class="row">
+                  <div class="col-md-3">
+                    <a class="smallProjTile" href="../works/vi3k.html">
+                      <h4 class="smallprojTitle" >Vi 3000</h4>
+                    </a>
+                  </div>
+                  <div class="col-md-3">
+                    <a class="smallProjTile" href="../works/workflowPatterns.html">
+                      <h4 class="smallprojTitle" >Workflow Patterns</h4>
+                    </a>
+                  </div>
+                  <div class="col-md-3">
+                    <a class="smallProjTile" href="../works/workbox.html">
+                      <h4 class="smallprojTitle" >WorkBox Approvals</h4>
+                    </a>
+                  </div>
+                  <div class="col-md-3">
+                    <a class="smallProjTile" href="../works/cache_prewarming.html">
+                      <h4 class="smallprojTitle" >Cache Pre-Warming</h4>
+                    </a>
+                  </div>
+
+                </div>
+              </div>
+            </div>
+          </div><!-- /.modal-content -->
+        </div><!-- /.modal-dialog -->
+      </div><!-- /.modal -->
       <div class="workDescription">
-        <h2 class="projectName">Confer Control</h2>
+        <div>
+          <h2 class="projectName">Confer Control</h2>
+          <a class="worksSnippetBtn" data-toggle="modal" data-target="#myModal">
+            <span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span>
+          </a>
+          <div class="clearit"></div>
+        </div>
+
         <p>Confer Control is a Windows PC based Application to control AKG's conferencing units CS5 and CS3. This software has multiple workflows to manage conferences which includes, Seating, Venue Creation, Reporting, Projection Etc.</p>
         <div class="imageContainer">
           <img src="../imgs/works/CC_1.jpg"/>
