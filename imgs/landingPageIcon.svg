@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="38px" height="176px" viewBox="0 0 38 176" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 3.8.3 (29802) - http://www.bohemiancoding.com/sketch -->
+    <title>Group 3</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <path d="M5.68434189e-14,10.0010524 C5.68434189e-14,4.47762368 4.47198732,0 10.0007298,0 L27.2266428,0 C32.7498934,0 37.2273726,4.4728546 37.2273726,10.0010524 L37.2273726,132.157821 L29.7818981,139.74583 L18.6136863,132.157821 L9.16366095,139.74583 L5.68434189e-14,132.157821 L5.68434189e-14,10.0010524 Z" id="path-1"></path>
+        <mask id="mask-2" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="37.2273726" height="139.74583" fill="white">
+            <use xlink:href="#path-1"></use>
+        </mask>
+        <path d="M5.68434189e-14,10.0010524 C5.68434189e-14,4.47762368 4.47198732,0 10.0007298,0 L27.2266428,0 C32.7498934,0 37.2273726,4.4728546 37.2273726,10.0010524 L37.2273726,132.157821 L19.3068714,175.80687 L5.68434189e-14,132.157821 L5.68434189e-14,10.0010524 Z" id="path-3"></path>
+        <mask id="mask-4" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="37.2273726" height="175.80687" fill="white">
+            <use xlink:href="#path-3"></use>
+        </mask>
+    </defs>
+    <g id="Page-2" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Home-Page" transform="translate(-128.000000, -244.000000)">
+            <g id="Group-3" transform="translate(146.306872, 331.806872) rotate(180.000000) translate(-146.306872, -331.806872) translate(127.306872, 243.806872)">
+                <path d="M1.70530257e-13,23.1688655 C1.70530257e-13,17.6481703 4.47198732,13.1727626 10.0007298,13.1727626 L27.2266428,13.1727626 C32.7498934,13.1727626 37.2273726,17.6500209 37.2273726,23.1688655 L37.2273726,133.445813 L19.4727795,174.682287 L1.70530257e-13,133.445813 L1.70530257e-13,23.1688655 Z" id="Rectangle-75" fill="#FFFFFF"></path>
+                <use id="Rectangle-75" stroke="#4A4A4A" mask="url(#mask-2)" stroke-width="6" xlink:href="#path-1"></use>
+                <use id="Rectangle-75" stroke="#4A4A4A" mask="url(#mask-4)" stroke-width="6" xlink:href="#path-3"></use>
+                <polygon id="Rectangle-75" fill="#000000" points="26.4222944 158.64588 19.4625621 174.600775 12.027305 158.64588"></polygon>
+                <rect id="Rectangle-78" fill="#444444" x="1.70530257e-13" y="14.3182202" width="37.2273726" height="3.43637286"></rect>
+            </g>
+        </g>
+    </g>
+</svg>
