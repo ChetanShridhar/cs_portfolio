@@ -201,3 +201,9 @@ footer a:hover{color: #2D9695; text-decoration: none;}
 .modal_close_btn{background: #fff; margin: 8px; text-align: center; width: 30px; padding: 6px; border-radius: 25px; position: fixed; right: 0; box-shadow: none;}
 
 .modal-content{top: 50px; border: none; border-radius: 0;/* margin: 0 50px; */ height: 100%; box-shadow: none; background: #ededed;}
+
+
+.contactMe{width: 60%; padding: 30px; padding-left: 20%;border: 1px solid #ccc; margin: 0 auto; margin-top: 200px;}
+.contactMe>h4{font-size: 24px; color: #4a4a4a; font-weight: 100; margin: 0; margin-bottom: 4px;}
+.contactInfo{float: left;}
+.socialContact{float: left; margin-left: 100px;}
