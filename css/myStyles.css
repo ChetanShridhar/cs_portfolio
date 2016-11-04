@@ -15,6 +15,7 @@ body{font-family: 'Roboto'; color: #4a4a4a; font-weight: 300; font-size: 14px; -
 .opacity_70{opacity: 0.7}
 .opacity_80{opacity: 0.8}
 .opacity_90{opacity: 0.9}
+button, a{outline: none !important}
 
 /*Font Colors and Sizes*/
 .normalFont_Dark{font-family: 'Open Sans'; font-weight: 100; color: #4a4a4a !important; font-size: 14px;}
@@ -128,6 +129,33 @@ top:0;
 right:4px;
 bottom:0;
 }
+.panel{
+  border: none !important;
+  box-shadow: none !important;
+}
+.pagination a .hover-text{
+right: 5px;
+top: 1px;
+}
+.pagination a .hover-text{
+  font-size: 12px;
+  color: #4a4a4a;
+}
+.pagination>li>a{
+  color: #4a4a4a;
+  color: #4a4a4a;
+  background: transparent;
+  border:none;
+}
+.pagination>li>a:focus, .pagination>li>a:hover{
+  color: #4a4a4a;
+  background: transparent;
+  border:none;
+}
+.pagination>li:first-child>a
+{
+  margin-left: -1px;
+}
 
 
 /*My Skills*/
@@ -214,14 +242,17 @@ footer a:hover{color: #2D9695; text-decoration: none;}
 .worksHeader h4{color: #999999; font-size: 24px; font-weight: 100;}
 .worksHeader .filters{float: right;}
 
-.worksSnippet{ margin: 0 auto; padding: 16px}
+.worksSnippet{ margin: 0 auto; padding: 16px;}
 .modal-content, .modal-body{background: #fff;}
 .worksSnippet .row{margin-bottom: 10px;}
 .worksSnippet .smallSectionTitle{color: #4a4a4a; font-size: 24px; margin-bottom: 20px;font-weight: lighter;}
 .worksSnippet a.smallProjTile{display: block; padding: 27px 1px; background: #f8f8f8; border: 1px solid #ededed;}
 .worksSnippet a.smallProjTile:hover{display: block; text-decoration: none;box-shadow: 0 0 10px #ccc;border: 1px solid #ddd;}
 .worksSnippet a.smallProjTile h4.smallprojTitle{font-size:14px; font-weight: 300; color: #4a4a4a; text-decoration: none; line-height:normal; margin: auto !important; text-align: center;}
-.worksSnippetBtn{float: right; width: 25px; line-height: 0; cursor: pointer !important; padding: 5px 2px 2px 5px; margin-top: 30px;}
+.worksSnippetBtn{float: right; width: 25px; line-height: 0; cursor: pointer !important; padding: 5px 2px 2px 5px; margin-top: 30px;position: fixed;
+    top: 153px;
+    right: 146px;
+    z-index: 10;}
 .worksSnippetBtn:hover{background: #ededed;}
 .worksSnippetBtn span{width: 3px; height: 3px; background: #4a4a4a; display: inline-block; margin-right: 3px; line-height: 0; margin-bottom: 3px}
 
@@ -258,7 +289,11 @@ footer a:hover{color: #2D9695; text-decoration: none;}
 .modal-content{top: 50px; border: none; border-radius: 0;/* margin: 0 50px; */ height: 100%; box-shadow: none; background: #ededed;}
 
 
-.contactMe{width: 60%; padding: 30px; padding-left: 20%;border: 1px solid #ccc; margin: 0 auto; margin-top: 200px;}
+.contactMe{padding: 30px; padding-left: 360px; padding-top: 100px;border: 1px solid #ccc; margin: 0 auto; background: url('../imgs/ContactPic.png') no-repeat; background-size: contain;}
 .contactMe>h4{font-size: 24px; color: #4a4a4a; font-weight: 100; margin: 0; margin-bottom: 4px;}
 .contactInfo{float: left;}
+.contactInfo a{color: #4a4a4a;}
+.contactInfo a{}
 .socialContact{float: left; margin-left: 100px;}
+.socialContact>ul>li>a>i{padding-right: 8px;}
+.socialContact>ul>li>a{color: #4a4a4a;}
