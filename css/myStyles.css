@@ -1,4 +1,4 @@
-body{font-family: 'Open Sans'; color: #4a4a4a; font-weight: 300; font-size: 14px; -webkit-font-smoothing: antialiased;font-smoothing: antialiased;}
+body{font-family: 'Roboto'; color: #4a4a4a; font-weight: 300; font-size: 14px; -webkit-font-smoothing: antialiased;font-smoothing: antialiased;}
 ::selection{background: #4a4a4a; color: #ffffff}
 
 .clearit{clear: both;}
@@ -21,17 +21,17 @@ body{font-family: 'Open Sans'; color: #4a4a4a; font-weight: 300; font-size: 14px
 
 .navbar-brand{padding: 0;}
 .navbar-default{background: rgba(255,255,255,0.8); border: none;}
-.navbar-brand p{padding: 15px; font-weight: 600; color: #4a4a4a; letter-spacing: normal; font-size: 14px;}
+.navbar-brand p{padding: 15px; font-weight: 300; color: #4a4a4a; letter-spacing: normal; font-size: 14px;}
 
 
 /*Mast Head*/
 .mastHead{margin-top: 50px; padding: 200px 0;}
 .mastHead>div{background: url('../imgs/landingPageIcon.svg') no-repeat; padding: 52px 0px 0px 70px;}
-.largeTxt{font-size: 72px; margin-bottom: 0;}
+.largeTxt{font-size: 72px; margin-bottom: 0; font-weight: 100;}
 .smallTxt{font-size: 24px; padding-left: 10px; margin-top: -10px;}
 
 .scrlSnp{position: relative;}
-.downArrow{position: absolute; bottom: 30px; left: 47%; cursor: pointer !important;}
+.downArrow{position: absolute; bottom: 30px; left: 47%; cursor: pointer !important; display: none;}
 .downArrow a{cursor: pointer !important; display: block;padding: 10px 23px; font-size:32px; font-weight: lighter; color: #666; text-align: center; animation-duration: 0.5s;
   animation-name: arrowMove; animation-iteration-count: infinite; animation-direction: alternate;}
 @keyframes arrowMove {
@@ -55,7 +55,7 @@ a.projTileCont:hover .projTile{box-shadow: 0 0 10px #ccc; border:1px solid #ddd;
 .myWorks .row {margin-bottom: 40px;}
 
 
-.skillList li{margin-bottom: 30px; font-size: 24px; font-weight: 100; clear: both;}
+.skillList li{margin-bottom: 30px; font-size: 24px; font-weight: 300; clear: both;}
 .skillList li span{font-family: 'chetan_skill_icons'; font-size: 36px; float: left;}
 .skillList li p{padding-top: 3px; padding-left: 63px;}
 
@@ -69,7 +69,8 @@ a.projTileCont:hover .projTile{box-shadow: 0 0 10px #ccc; border:1px solid #ddd;
 .workDescription h2.projectName{margin-bottom: 100px; font-size: 36px; float: left;}
 .workDescription h4{font-size: 24px; margin-bottom: 50px;}
 .workDescription h6{font-size: 16px;}
-.workDescription p{font-size: 16px; font-weight: 300; margin-bottom: 50px; color: #000;}
+.workDescription p{font-size: 14px; font-weight: 300; margin-bottom: 50px; color: #000;}
+.workDescription p a{color: #0099cc; font-weight: 400;}
 .imageContainer{margin-bottom: 50px; text-align: center;}
 .imageContainer img{width: 80%}
 .imageContainer h5{text-align: left; padding-left: 10%; font-size: 18px;}
@@ -160,12 +161,12 @@ footer a:hover{color: #2D9695; text-decoration: none;}
 .worksHeader .filters{float: right;}
 
 .worksSnippet{ margin: 0 auto; padding: 16px}
-.modal-content, .modal-body{background: #fff; border-radius: 10px !important;}
+.modal-content, .modal-body{background: #fff;}
 .worksSnippet .row{margin-bottom: 10px;}
 .worksSnippet .smallSectionTitle{color: #4a4a4a; font-size: 24px; margin-bottom: 20px;font-weight: lighter;}
 .worksSnippet a.smallProjTile{display: block; padding: 27px 1px; background: #f8f8f8; border: 1px solid #ededed;}
 .worksSnippet a.smallProjTile:hover{display: block; text-decoration: none;box-shadow: 0 0 10px #ccc;border: 1px solid #ddd;}
-.worksSnippet a.smallProjTile h4.smallprojTitle{font-size:16px; font-weight: lighter; color: #4a4a4a; text-decoration: none; line-height:normal; margin: auto !important; text-align: center;}
+.worksSnippet a.smallProjTile h4.smallprojTitle{font-size:14px; font-weight: 300; color: #4a4a4a; text-decoration: none; line-height:normal; margin: auto !important; text-align: center;}
 .worksSnippetBtn{float: right; width: 25px; line-height: 0; cursor: pointer !important; padding: 5px 2px 2px 5px; margin-top: 30px;}
 .worksSnippetBtn:hover{background: #ededed;}
 .worksSnippetBtn span{width: 3px; height: 3px; background: #4a4a4a; display: inline-block; margin-right: 3px; line-height: 0; margin-bottom: 3px}
