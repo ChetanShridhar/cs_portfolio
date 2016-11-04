@@ -126,8 +126,99 @@
           </a>
           <div class="clearit"></div>
         </div>
+        <p>
+          <strong>Challenge:</strong> Identify Usability problems in four Configuring Applications and propose UI Patterns which can be used across applications to improve ease of Use of Apps.
+        </p>
+        <h5>
+          Applications in scope for configuring CDN for:
+        </h5>
+        <ul class="numberit">
+          <li>On Demand Video</li>
+          <li>Live Streaming</li>
+          <li>Cloud Storage</li>
+          <li>Media Security</li>
+        </ul>
 
-        <p>Sorry, this page will be updated shortly</p>
+        <h5>Problems Identified:</h5>
+        <ul class="numberit">
+          <li>Intended “Use Cases” is unclear</li>
+          <li>“Workflows” to achieve a task is not conveyed well</li>
+          <li>Overload of Information + Options</li>
+          <li>Poor Navigation Scheme</li>
+          <li>Grouping of Properties not intuitive</li>
+          <li>Finding a property not easy </li>
+          <li>Lack of Visual hierarchy</li>
+          <li>Terminology too complex</li>
+          <li>Lack of visual cues and help</li>
+          <li>UI behavior same for Normal and Power user</li>
+          <li>Same mechanism for first time user and repeated user</li>
+          <li>The Use Cases could be broken into Creation, Management and Monitoring.</li>
+          <li>Lengthy Forms.</li>
+          <li>Very tough for Users to understand Hierarchy of Entities & Properties of a Product.</li>
+        </ul>
+
+        <h5>Driving Principles:</h5>
+        <ul class="numberit">
+          <li>Users are “In Control” to perform tasks<br/>
+            (More choices = More anxiety | Less choices = More control)</li>
+          <li>Users to “Freely Explore” (Allow the users to make mistakes by providing failsafes)</li>
+          <li>Keep Users “Informed” (of consequences and outcomes)</li>
+          <li>User understands our “intended” workflow</li>
+        </ul>
+
+        <h5>Proposed Improvements:</h5>
+        <ul class="numberit">
+          <li>Identifying a proper structure for all available information of Products
+            <ul class="numberit" style="margin-bottom:0;">
+              <li>Product > Entities > Properties > Sub Properties</li>
+            </ul>
+            <img src="../imgs/works/WP_1.png" style="width:60%; padding:20px 0; display:block; margin:0 auto;" />
+          </li>
+          <li>A 3 Pane Layout: User will be able to View or Switch between all Entities of a Product and also Drill down into an Entity and its Properties without changing the overall view of the Application. This helps User understand the Hierarchy of Information visually and also helps in finding what is required in a logical way.
+            <img src="../imgs/works/WP_2.png" style="width:90%; padding:20px 0; display:block; text-align:center;  margin:0 auto;" />
+          </li>
+          <li>Smart Filters and Search: Helps user filter or find information in a much easier way.</li>
+          <li>Clearly distinguish between all CRUD tasks.</li>
+          <li>Meaningful wizards for Creation of configurations.</li>
+          <li>Efficient Error Handling which guides Users.</li>
+        </ul>
+
+
+        <h5>Why Entities</h5>
+        <ul class="numberit">
+          <li>One approach to all products</li>
+          <li>Logical grouping of most features & properties of Products</li>
+          <li>Helps identify common Usage Patterns for
+            <ul class="numberit" style="margin-bottom:0;">
+              <li>Configuring an Entity</li>
+              <li>Managing Entities</li>
+            </ul></li>
+          <li>Helps identify common UI Patterns (few Examples below)
+            <ul class="numberit">
+              <li>Data Grid</li>
+              <li>Detail View</li>
+              <li>Modal Window</li>
+              <li>Left Navigation and more</li>
+            </ul></li>
+        </ul>
+        <h5>Entity - Thumb Rules</h5>
+        <ul class="numberit">
+          <li>Easier flow: Parent entity to Child entity & vice versa</li>
+          <li>Independent Entities should be accessible via Parent Entities or Independently</li>
+          <li>Properties (composite or aggregate) can be accessed via parent</li>
+        </ul>
+        <h5>Entities in UI</h5>
+        <ul class="numberit">
+          <li>Left Navigation: between Entities</li>
+          <li>List (Data-grid): Groups of Entities</li>
+          <li>Manage Entities: bulk / independent</li>
+          <li>Wizard: Creating an Entity</li>
+          <li>3 Pane layout</li>
+          <li>Modal</li>
+        </ul>
+        Note: I am unable to share any UI screens here because of NDA. I will be able to explain more about this task in person.
+
+
       </div>
     </div>
     <div class="modal fade" id="contactMe" tabindex="-1" role="dialog">

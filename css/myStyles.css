@@ -16,6 +16,8 @@ body{font-family: 'Roboto'; color: #4a4a4a; font-weight: 300; font-size: 14px; -
 .opacity_80{opacity: 0.8}
 .opacity_90{opacity: 0.9}
 button, a{outline: none !important}
+ ul.numberit{margin-left: 18px; list-style: disc; margin-bottom: 40px;}
+ul.numberit li{list-style: disc;}
 
 /*Font Colors and Sizes*/
 .normalFont_Dark{font-family: 'Open Sans'; font-weight: 100; color: #4a4a4a !important; font-size: 14px;}
